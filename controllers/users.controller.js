@@ -151,6 +151,21 @@ export const getUser = async (req, res, next) => {
     }
 }
 
+export const getUsers = async (req, res, next) => { 
+    try { 
+        const users = await Users.find();
+
+        res.status(200);
+        res.json({
+            code: "01",
+            result: users
+        });
+    } catch (e) {
+        console.log(e.message);
+        res.status(500).json({ code: "00", message: "Something went wrong" })
+    }
+}
+
 export const updateUser = async (req, res, next) => {
     const { id } = req.params;
     const data = req.body;
