@@ -21,15 +21,15 @@
 
 ### AUTH_REST_Contains
 
-> login ({{source-url}}/auth-rest/login)
+> login ({source-url}/auth-rest/login)
 
-> registration ({{source-url}}/auth-rest/register)
+> registration ({source-url}/auth-rest/register)
 
-> reset password ({{source-url}}/auth-rest/password-reset)
+> reset password ({source-url}/auth-rest/password-reset)
 
-> get user ({{source-url}}/auth-rest/:id)
+> get user ({source-url}/auth-rest/:id)
  
-> get users ({{source-url}}/auth-rest/)
+> get users ({source-url}/auth-rest/)
 
-> update user ({{source-url}}/auth-rest/:id)
+> update user ({source-url}/auth-rest/:id)
 
