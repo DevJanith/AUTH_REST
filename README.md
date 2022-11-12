@@ -1,5 +1,7 @@
 # AUTH_REST
 
+### Auth_rest is a reference project for all the common user controllers for a auth environment. Developed using MEN (mongo db, express.js, node.js)
+
 ###### To start the project first configure .env file according to the requirements
 
 ## Start the project by,
